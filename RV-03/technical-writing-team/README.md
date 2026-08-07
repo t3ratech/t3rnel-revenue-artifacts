@@ -2,7 +2,7 @@
 
 Turns a codebase into reference documentation, guides and runnable examples that are verified before they ship.
 
-Version 1.0.0 · 5 roles · fingerprint `8cccc649da227869`
+Version 1.0.0 · 5 roles · fingerprint `94b4f48c06307cb7`
 
 ## Roles
 
