@@ -2,7 +2,7 @@
 
 Drives a real browser to gather data and complete workflows on sites with no usable API.
 
-Version 1.0.0 · 3 roles · fingerprint `2bfde2ae1afaba64`
+Version 1.0.0 · 3 roles · fingerprint `11ff88f061510470`
 
 ## Roles
 
