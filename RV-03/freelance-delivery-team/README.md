@@ -2,7 +2,7 @@
 
 Finds fixed-scope work, qualifies it, writes the proposal, delivers it and tracks the payment.
 
-Version 1.0.0 · 5 roles · fingerprint `a4eed0dbdb5f0b49`
+Version 1.0.0 · 5 roles · fingerprint `6ce47f03f226f645`
 
 ## Roles
 
