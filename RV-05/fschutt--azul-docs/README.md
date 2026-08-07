@@ -2,7 +2,7 @@
 
 Desktop GUI Framework
 
-Generated from `801ae337` on 2026-08-07.
+Generated from `64b60db9` on 2026-08-07.
 
 ## At a glance
 
@@ -105,4 +105,4 @@ Generated from `801ae337` on 2026-08-07.
 | Claim | Source |
 |---|---|
 | fschutt/azul has 6115 stars | https://github.com/fschutt/azul |
-| default branch is master at 801ae337 | https://github.com/fschutt/azul/commits |
+| default branch is master at 64b60db9 | https://github.com/fschutt/azul/commits |
