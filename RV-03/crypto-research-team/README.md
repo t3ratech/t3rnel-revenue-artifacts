@@ -2,7 +2,7 @@
 
 Tracks on-chain activity, market structure and project fundamentals, producing dated research briefs.
 
-Version 1.0.0 · 5 roles · fingerprint `d8d1067356ff63e6`
+Version 1.0.0 · 5 roles · fingerprint `07a5baf0fb15e4de`
 
 ## Roles
 
