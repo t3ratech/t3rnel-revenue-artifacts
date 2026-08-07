@@ -2,7 +2,7 @@
 
 Builds and hardens deployment pipelines, infrastructure definitions and service monitoring.
 
-Version 1.0.0 · 4 roles · fingerprint `77ddd2a24a20b7b5`
+Version 1.0.0 · 4 roles · fingerprint `3493f34573010563`
 
 ## Roles
 
