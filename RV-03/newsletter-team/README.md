@@ -2,7 +2,7 @@
 
 Researches, writes, edits and schedules a recurring newsletter across several distribution channels.
 
-Version 1.0.0 · 4 roles · fingerprint `3203496c8c0d5ffd`
+Version 1.0.0 · 4 roles · fingerprint `06cc2579cf342182`
 
 ## Roles
 
