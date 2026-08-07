@@ -2,7 +2,7 @@
 
 Builds and back-tests strategy hypotheses with explicit risk limits and a written rejection log.
 
-Version 1.0.0 · 5 roles · fingerprint `acd7a8062e74a9aa`
+Version 1.0.0 · 5 roles · fingerprint `a513f79055064727`
 
 ## Roles
 
