@@ -2,7 +2,7 @@
 
 Takes a specification to merged, tested and released code with review and security gates in the path.
 
-Version 1.0.0 · 6 roles · fingerprint `2fd2c4e26fc52c9e`
+Version 1.0.0 · 6 roles · fingerprint `ce62139766d30295`
 
 ## Roles
 
