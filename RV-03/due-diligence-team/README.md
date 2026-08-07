@@ -2,7 +2,7 @@
 
 Assembles a company or project dossier from public sources with every claim traced to its evidence.
 
-Version 1.0.0 · 4 roles · fingerprint `55ccd9b86d3cb364`
+Version 1.0.0 · 4 roles · fingerprint `b32209b9a21f7f39`
 
 ## Roles
 
