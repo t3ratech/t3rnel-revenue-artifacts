@@ -2,7 +2,7 @@
 
 Authors, tests, security-scans, documents and releases installable skill packages to public registries.
 
-Version 1.0.0 · 5 roles · fingerprint `4cbf2e52b9763de3`
+Version 1.0.0 · 5 roles · fingerprint `b31c50777b6bf23a`
 
 ## Roles
 
