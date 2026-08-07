@@ -2,7 +2,7 @@
 
 Scopes a target, enumerates attack surface, validates findings and writes reports that meet triage standards.
 
-Version 1.0.0 · 4 roles · fingerprint `c8dabc91fdf5fe82`
+Version 1.0.0 · 4 roles · fingerprint `368a60849bc07a02`
 
 ## Roles
 
