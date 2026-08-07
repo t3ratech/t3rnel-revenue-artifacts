@@ -2,7 +2,7 @@
 
 Turns a product brief into interface designs and a built, reviewed front end.
 
-Version 1.0.0 · 4 roles · fingerprint `9375fc7fe0cb2413`
+Version 1.0.0 · 4 roles · fingerprint `b5a73a83de743302`
 
 ## Roles
 
