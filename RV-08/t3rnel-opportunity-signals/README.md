@@ -1,6 +1,6 @@
 # t3rnel-opportunity-signals
 
-78 rows, refreshed 2026-08-07.
+111 rows, refreshed 2026-08-07.
 
 Every row cites the page it was observed on. Collected from public sources only, honouring robots.txt and platform terms.
 
