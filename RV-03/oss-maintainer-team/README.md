@@ -2,7 +2,7 @@
 
 Triages issues, reviews pull requests, writes release notes and keeps documentation current on a public repository.
 
-Version 1.0.0 · 5 roles · fingerprint `c866973ec747e5be`
+Version 1.0.0 · 5 roles · fingerprint `8ada8630030a86ea`
 
 ## Roles
 
