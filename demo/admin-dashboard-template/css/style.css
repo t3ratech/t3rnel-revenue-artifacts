@@ -1,0 +1,101 @@
+/* Nebula Admin — Custom Styles */
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+.dark ::-webkit-scrollbar-thumb { background: #334155; }
+
+.sidebar-collapsed #sidebar { width: 4.5rem; }
+.sidebar-collapsed #sidebar .nav-label { display: none; }
+.sidebar-collapsed #sidebar .nav-section-label { display: none; }
+.sidebar-collapsed #sidebar .brand-text { display: none; }
+.sidebar-collapsed #sidebar nav a { justify-content: center; }
+.sidebar-collapsed #main-content { margin-left: 4.5rem; }
+
+.card {
+  @apply bg-white dark:bg-dark-900 rounded-xl border border-dark-200 dark:border-dark-800 shadow-sm;
+}
+
+.stat-card {
+  @apply card p-6 flex items-start justify-between;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 px-4 py-2.5 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center gap-2 px-4 py-2.5 bg-dark-100 dark:bg-dark-800 hover:bg-dark-200 dark:hover:bg-dark-700 text-dark-700 dark:text-dark-300 text-sm font-medium rounded-lg transition-colors;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center gap-2 px-3 py-2 text-dark-500 dark:text-dark-400 hover:text-dark-700 dark:hover:text-dark-200 hover:bg-dark-100 dark:hover:bg-dark-800 rounded-lg transition-colors;
+}
+
+.input {
+  @apply w-full px-4 py-2.5 bg-white dark:bg-dark-800 border border-dark-300 dark:border-dark-700 rounded-lg text-dark-900 dark:text-dark-100 placeholder-dark-400 dark:placeholder-dark-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-shadow;
+}
+
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-success { @apply badge bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400; }
+.badge-warning { @apply badge bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400; }
+.badge-danger  { @apply badge bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400; }
+.badge-info    { @apply badge bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400; }
+.badge-neutral { @apply badge bg-dark-100 text-dark-600 dark:bg-dark-800 dark:text-dark-400; }
+
+.table-container {
+  @apply overflow-x-auto rounded-xl border border-dark-200 dark:border-dark-800;
+}
+
+.table {
+  @apply w-full text-sm text-left;
+}
+
+.table thead {
+  @apply bg-dark-50 dark:bg-dark-800/50 text-dark-600 dark:text-dark-400 uppercase text-xs tracking-wider;
+}
+
+.table th { @apply px-6 py-3 font-medium; }
+.table td { @apply px-6 py-4 border-t border-dark-200 dark:border-dark-800; }
+.table tbody tr:hover { @apply bg-dark-50 dark:bg-dark-800/30; }
+
+.progress-bar {
+  @apply w-full h-2 bg-dark-200 dark:bg-dark-800 rounded-full overflow-hidden;
+}
+
+.progress-bar > div {
+  @apply h-full rounded-full transition-all duration-500;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.chart-container {
+  position: relative;
+  height: 300px;
+}
+
+.chart-container-sm {
+  position: relative;
+  height: 200px;
+}
+
+@media (max-width: 1023px) {
+  #sidebar { transform: translateX(-100%); }
+  #sidebar.open { transform: translateX(0); }
+  #main-content { margin-left: 0 !important; }
+}
+
+@media (min-width: 1024px) {
+  #main-content { margin-left: 16rem; }
+  .sidebar-collapsed #main-content { margin-left: 4.5rem; }
+}
