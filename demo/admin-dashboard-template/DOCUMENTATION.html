@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula Admin — Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        code, pre { font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased min-h-screen">
+    <!-- Header -->
+    <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-500/20">
+                    <i data-lucide="hexagon" class="w-5 h-5"></i>
+                </div>
+                <span class="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">Nebula Admin</span>
+                <span class="text-xs px-2.5 py-1 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 font-semibold">v1.0.0</span>
+            </div>
+            <a href="index.html" class="text-sm font-medium text-slate-400 hover:text-indigo-400 flex items-center gap-2 transition">
+                <i data-lucide="external-link" class="w-4 h-4"></i> Launch Dashboard
+            </a>
+        </div>
+    </header>
+
+    <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-4 gap-12">
+        <!-- Sidebar Nav -->
+        <aside class="space-y-2 sticky top-24 h-fit">
+            <p class="text-xs font-bold text-slate-500 uppercase tracking-wider px-3 mb-2">Documentation</p>
+            <a href="#overview" class="block px-3 py-2 text-sm rounded-lg text-slate-300 hover:bg-slate-800 hover:text-indigo-400 transition font-medium">Overview & Features</a>
+            <a href="#quickstart" class="block px-3 py-2 text-sm rounded-lg text-slate-300 hover:bg-slate-800 hover:text-indigo-400 transition font-medium">Quick Start</a>
+            <a href="#structure" class="block px-3 py-2 text-sm rounded-lg text-slate-300 hover:bg-slate-800 hover:text-indigo-400 transition font-medium">File Structure</a>
+            <a href="#pages" class="block px-3 py-2 text-sm rounded-lg text-slate-300 hover:bg-slate-800 hover:text-indigo-400 transition font-medium">Pages Overview</a>
+            <a href="#customization" class="block px-3 py-2 text-sm rounded-lg text-slate-300 hover:bg-slate-800 hover:text-indigo-400 transition font-medium">Customization & Themes</a>
+            <a href="#charts" class="block px-3 py-2 text-sm rounded-lg text-slate-300 hover:bg-slate-800 hover:text-indigo-400 transition font-medium">Charts & Visualizations</a>
+            <a href="#browser-support" class="block px-3 py-2 text-sm rounded-lg text-slate-300 hover:bg-slate-800 hover:text-indigo-400 transition font-medium">Browser Support</a>
+            <a href="#support" class="block px-3 py-2 text-sm rounded-lg text-slate-300 hover:bg-slate-800 hover:text-indigo-400 transition font-medium">Support & License</a>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="lg:col-span-3 space-y-12">
+            <!-- Overview -->
+            <section id="overview" class="space-y-4">
+                <h1 class="text-3xl font-extrabold tracking-tight text-white">Nebula Admin Dashboard Template</h1>
+                <p class="text-slate-400 text-lg leading-relaxed">
+                    Nebula Admin is a modern, ultra-responsive HTML5/JavaScript admin template built with Tailwind CSS. Designed with modern aesthetics, zero build steps, and pre-built components for analytics, user management, forms, and settings.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+                    <div class="p-4 rounded-xl bg-slate-800/50 border border-slate-800">
+                        <div class="text-indigo-400 mb-2"><i data-lucide="zap" class="w-6 h-6"></i></div>
+                        <h3 class="font-bold text-white mb-1">Zero Build Step</h3>
+                        <p class="text-xs text-slate-400">Tailwind CSS & Chart.js via CDN. Open index.html directly in browser.</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-slate-800/50 border border-slate-800">
+                        <div class="text-indigo-400 mb-2"><i data-lucide="moon" class="w-6 h-6"></i></div>
+                        <h3 class="font-bold text-white mb-1">Dark / Light Mode</h3>
+                        <p class="text-xs text-slate-400">Automatic system preference detection + localStorage persistence.</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-slate-800/50 border border-slate-800">
+                        <div class="text-indigo-400 mb-2"><i data-lucide="layout" class="w-6 h-6"></i></div>
+                        <h3 class="font-bold text-white mb-1">11+ Pages Included</h3>
+                        <p class="text-xs text-slate-400">Dashboard, Analytics, Tables, Forms, Users, Settings, Auth pages.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Start -->
+            <section id="quickstart" class="space-y-4 border-t border-slate-800 pt-8">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <i data-lucide="terminal" class="w-6 h-6 text-indigo-400"></i> Quick Start Guide
+                </h2>
+                <p class="text-slate-400">You can run Nebula Admin immediately without running <code class="text-indigo-300">npm install</code> or any build command.</p>
+
+                <div class="space-y-3">
+                    <h3 class="font-semibold text-slate-200">Option 1: Direct File Open</h3>
+                    <p class="text-sm text-slate-400">Double-click <code class="bg-slate-800 px-2 py-1 rounded text-indigo-300">index.html</code> to open in Chrome, Firefox, Safari, or Edge.</p>
+
+                    <h3 class="font-semibold text-slate-200">Option 2: Local HTTP Server</h3>
+                    <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-sm text-indigo-300">
+                        # Python 3<br>
+                        python3 -m http.server 8080<br><br>
+                        # Node npx<br>
+                        npx serve .
+                    </div>
+                    <p class="text-xs text-slate-500">Visit <code class="text-slate-300">http://localhost:8080</code> in your browser.</p>
+                </div>
+            </section>
+
+            <!-- File Structure -->
+            <section id="structure" class="space-y-4 border-t border-slate-800 pt-8">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <i data-lucide="folder-tree" class="w-6 h-6 text-indigo-400"></i> Project Structure
+                </h2>
+                <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 font-mono text-sm text-slate-300 overflow-x-auto">
+admin-dashboard-template/
+├── index.html              # Main Executive Dashboard
+├── DOCUMENTATION.html      # Comprehensive Documentation File
+├── README.md               # Quick Reference README
+├── css/
+│   └── style.css           # Modern Custom Styles & Tailwind Adjustments
+├── js/
+│   ├── main.js             # Sidebar toggle, theme switcher, notifications dropdown
+│   └── charts.js           # Chart.js initialization for sparklines & analytics
+├── pages/
+│   ├── analytics.html      # Advanced Analytics & Data Visualization Page
+│   ├── tables.html         # Data Tables with Status Badges & Pagination
+│   ├── forms.html          # Form Elements, Inputs, Toggles & Validation States
+│   ├── users.html          # User Management Grid & Profile Cards
+│   ├── settings.html       # Application & Profile Settings Configuration Page
+│   ├── login.html          # Split-panel Premium Login Page
+│   ├── signup.html         # Split-panel Account Registration Page
+│   ├── forgot-password.html# Account Recovery Page
+│   ├── privacy.html        # Privacy Policy Template Page
+│   └── terms.html          # Terms of Service Template Page
+                </div>
+            </section>
+
+            <!-- Customization -->
+            <section id="customization" class="space-y-4 border-t border-slate-800 pt-8">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <i data-lucide="palette" class="w-6 h-6 text-indigo-400"></i> Customization & Color Scheme
+                </h2>
+                <p class="text-slate-400">All pages include a embedded Tailwind CSS configuration block in the header. To change primary accent colors, modify the <code class="text-indigo-300">tailwind.config</code> script:</p>
+
+                <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-sm text-slate-300">
+&lt;script&gt;<br>
+tailwind.config = {<br>
+&nbsp;&nbsp;darkMode: 'class',<br>
+&nbsp;&nbsp;theme: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;extend: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colors: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;primary: { 50:'#eef2ff', 500:'#6366f1', 600:'#4f46e5', 700:'#4338ca' },<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dark: { 900:'#0f172a', 950:'#020617' }<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;}<br>
+}<br>
+&lt;/script&gt;
+                </div>
+            </section>
+
+            <!-- Support -->
+            <section id="support" class="space-y-4 border-t border-slate-800 pt-8">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <i data-lucide="help-circle" class="w-6 h-6 text-indigo-400"></i> Customer Support & License
+                </h2>
+                <p class="text-slate-400">Nebula Admin is developed and maintained by <strong>T3raTech Solutions</strong>. All buyers receive lifetime updates and customer support.</p>
+                <div class="p-4 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-sm text-indigo-300">
+                    <strong>Support Email:</strong> support@t3ratech.com<br>
+                    <strong>Website:</strong> https://t3ratech.com<br>
+                    <strong>License:</strong> Standard Commercial License on Codester.
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
