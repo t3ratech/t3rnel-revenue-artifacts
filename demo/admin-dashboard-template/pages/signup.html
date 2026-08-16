@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up — Nebula Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: { 50:'#eef2ff',100:'#e0e7ff',200:'#c7d2fe',300:'#a5b4fc',400:'#818cf8',500:'#6366f1',600:'#4f46e5',700:'#4338ca',800:'#3730a3',900:'#312e81',950:'#1e1b4b' },
+                        dark: { 50:'#f8fafc',100:'#f1f5f9',200:'#e2e8f0',300:'#cbd5e1',400:'#94a3b8',500:'#64748b',600:'#475569',700:'#334155',800:'#1e293b',900:'#0f172a',950:'#020617' }
+                    },
+                    fontFamily: { sans: ['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-dark-50 dark:bg-dark-950 text-dark-900 dark:text-dark-100 font-sans antialiased">
+
+    <div class="min-h-screen flex">
+        <!-- Left Panel — Branding -->
+        <div class="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 relative overflow-hidden">
+            <div class="relative z-10 flex flex-col justify-center px-12 xl:px-20">
+                <div class="flex items-center gap-3 mb-8">
+                    <div class="w-10 h-10 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center">
+                        <i data-lucide="hexagon" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <span class="text-2xl font-bold text-white tracking-tight">Nebula Admin</span>
+                </div>
+                <h1 class="text-4xl xl:text-5xl font-bold text-white leading-tight mb-6">
+                    Start managing<br>smarter today.
+                </h1>
+                <p class="text-lg text-primary-200 max-w-md">
+                    Join thousands of teams already using Nebula Admin to streamline their operations and make data-driven decisions.
+                </p>
+                <div class="flex gap-6 mt-12">
+                    <div class="text-white"><p class="text-3xl font-bold">10+</p><p class="text-primary-300 text-sm">Pages</p></div>
+                    <div class="text-white"><p class="text-3xl font-bold">50+</p><p class="text-primary-300 text-sm">Components</p></div>
+                    <div class="text-white"><p class="text-3xl font-bold">100%</p><p class="text-primary-300 text-sm">Free Updates</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel — Signup Form -->
+        <div class="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8">
+            <div class="w-full max-w-md">
+                <div class="lg:hidden flex items-center gap-3 mb-8 justify-center">
+                    <div class="w-10 h-10 rounded-xl bg-primary-600 flex items-center justify-center">
+                        <i data-lucide="hexagon" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <span class="text-2xl font-bold tracking-tight">Nebula Admin</span>
+                </div>
+
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl font-bold">Create your account</h2>
+                    <p class="text-dark-500 dark:text-dark-400 mt-2">Get started with your free trial</p>
+                </div>
+
+                <form class="space-y-5">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-1.5">First Name</label>
+                            <input type="text" class="input" placeholder="John">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1.5">Last Name</label>
+                            <input type="text" class="input" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1.5">Email Address</label>
+                        <div class="relative">
+                            <i data-lucide="mail" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-dark-400"></i>
+                            <input type="email" class="input pl-10" placeholder="you@example.com">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1.5">Password</label>
+                        <div class="relative">
+                            <i data-lucide="lock" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-dark-400"></i>
+                            <input type="password" class="input pl-10" placeholder="Create a strong password">
+                        </div>
+                        <p class="text-xs text-dark-500 dark:text-dark-400 mt-1.5">Must be at least 8 characters with one uppercase, one number.</p>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1.5">Confirm Password</label>
+                        <div class="relative">
+                            <i data-lucide="lock" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-dark-400"></i>
+                            <input type="password" class="input pl-10" placeholder="Confirm your password">
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <input type="checkbox" id="terms" class="rounded border-dark-300 dark:border-dark-700 mt-1">
+                        <label for="terms" class="text-sm text-dark-600 dark:text-dark-400">
+                            I agree to the <a href="terms.html" class="text-primary-600 dark:text-primary-400 hover:underline">Terms of Service</a> and <a href="privacy.html" class="text-primary-600 dark:text-primary-400 hover:underline">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-primary w-full justify-center text-base py-3">Create Account</button>
+                </form>
+
+                <div class="relative my-6">
+                    <div class="absolute inset-0 flex items-center"><div class="w-full border-t border-dark-200 dark:border-dark-800"></div></div>
+                    <div class="relative flex justify-center text-sm"><span class="px-4 bg-dark-50 dark:bg-dark-950 text-dark-500 dark:text-dark-400">Or sign up with</span></div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <button class="btn-secondary justify-center"><i data-lucide="github" class="w-4 h-4"></i>GitHub</button>
+                    <button class="btn-secondary justify-center"><i data-lucide="chrome" class="w-4 h-4"></i>Google</button>
+                </div>
+
+                <p class="text-center text-sm text-dark-500 dark:text-dark-400 mt-8">
+                    Already have an account? <a href="login.html" class="text-primary-600 dark:text-primary-400 hover:underline font-medium">Sign in</a>
+                </p>
+
+                <p class="text-center text-xs text-dark-400 dark:text-dark-500 mt-4">
+                    <a href="../index.html" class="hover:underline">&larr; Back to Dashboard</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>if (typeof lucide !== 'undefined') lucide.createIcons();</script>
+</body>
+</html>
